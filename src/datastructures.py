@@ -26,14 +26,14 @@ class FamilyStructure:
     def add_member(self, member):
         self._members.append(member)
         # fill this method and update the return
-        return "Miembre Agregado"
+        return "familiar agregado"
 
     def delete_member(self, id):
         # fill this method and update the return
         for i, item in enumerate(self._members, start=0):
             if item["id"] == id:
                 self._members.pop(i)
-        return "borrado"
+        return "eliminado"
 
     def get_member(self, id):
         # fill this method and update the return
